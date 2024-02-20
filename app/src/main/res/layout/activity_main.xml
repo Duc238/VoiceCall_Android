@@ -26,6 +26,6 @@
             android:layout_height="wrap_content"  app:layout_behavior="@string/appbar_scrolling_view_behavior" android:inputType="number" android:id="@+id/edtTelNumber"></EditText>
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:layout_below="@id/edtTelNumber" android:text="Call" android:id="@+id/btnCall" app:layout_behavior="@string/bottom_sheet_behavior"></Button>
+            android:layout_height="wrap_content" android:layout_below="@id/edtTelNumber" android:text="Call" android:id="@+id/btnCall"></Button>
     </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
